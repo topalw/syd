@@ -79,7 +79,7 @@ server <- function(input, output) {
           side=3)
   })
   output$text <- renderText({
-    "Have at it kid "
+    "Don't drift too far"
   })
 }
 shinyApp(ui = ui, server = server)
